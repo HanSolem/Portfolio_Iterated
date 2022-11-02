@@ -1,0 +1,27 @@
+h1 {font-size: 50px;
+    font-weight: bold;}
+h2 {font-size: 20px;}
+p {font-size: 12px;}
+section {
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    position: relative;
+    align-items: center;
+}
+button {
+    font-size: 12px;
+    padding: 10px 10px;
+    margin: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #65C8D6;
+    color: white;
+    border: 0;
+    width: 150px;
+}
+.heroButtons {
+    display: inline-flex;
+    flex-direction: row;
+}
